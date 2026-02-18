@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>ANBRUMAH - Botões de Pânico</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Bootstrap icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="style.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <style>
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .nav-link.active {
+      font-weight: bold;
+      color: #007bff;
+      /* Cor da ativação */
+    }
+    .no-select {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version */
+}
+  </style>
+</head>
+
+<body class="d-flex flex-column h-100">
+  <main class="flex-shrink-0">
+    <!-- Navigation-->
+    <div class="navbar-container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-shadow">
+        <div class="container px-5">
+          <a class="" href="index.html">
+            <img class="logo" src="https://i.ibb.co/2Mrzy2N/image.png" alt="Logo" style="object-fit: contain;">
+
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+              <li class="nav-item"><a class="nav-link" href="#instalacao">Local de Instalação</a></li>
+              <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Como Usar</a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                  <li><a class="dropdown-item" href="#como-usar">Como Acionar o Botão de Emergência</a></li>
+                  <li><a class="dropdown-item" href="#localizacao">Localização e Acesso</a></li>
+                  <li><a class="dropdown-item" href="#procedimentos">Procedimentos para o Acionamento</a></li>
+                  <li><a class="dropdown-item" href="#seguranca">Segurança e Conscientização</a></li>
+                  <li><a class="dropdown-item" href="#normas">Normas e Regulamentos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Integrantes</a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                  <li><a class="dropdown-item" href="#andressa">Andressa Lima</a></li>
+                  <li><a class="dropdown-item" href="#bruna">Bruna Paulinia</a></li>
+                  <li><a class="dropdown-item" href="#henrique">Henrique Yuri</a></li>
+                  <li><a class="dropdown-item" href="#maria-eduarda">Maria Eduarda Lemos</a></li>
+                  <li><a class="dropdown-item" href="#maria-luiza">Maria Luiza Tripudi</a></li>
+                  <li><a class="dropdown-item" href="#marina">Marina Gomes</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- HOME -->
+    <!-- Header -->
+    <header id="home" class="pg1 py-5">
+      <div class="container px-5">
+        <div class="row gx-5 align-items-center justify-content-center">
+          <div class="col-lg-8 col-xl-7 col-xxl-6">
+            <div class="my-5 text-center text-xl-start">
+              <h1 class="display-5 fw-bolder mb-2 pg1_t">Bem-Vindo ao ANBRUMAH </h1> <br>
+
+              <a href="#about" class="btn btn-custom">Saiba Mais</a>
+              <div class="trapezio"></div> <!-- Adicione esta linha -->
+            </div>
+          </div>
+          <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- SOBRE -->
+    <section id="about" class="cr-7">
+      <div class="background4">
+        <!-- Page Content-->
+        <div class="container px-4 px-lg-5">
+          <!-- Heading Row-->
+          <div class="row gx-4 gx-lg-5 align-items-center my-5">
+            <!-- Imagem -->
+            <div class="col-lg-6">
+              <img class="qm img-fluid-ig rounded mb-4 mb-lg-0" src="https://gscseguranca.com.br/wp-content/uploads/2020/10/blog-2-1.jpg" alt="Imagem sobre nós" />
+            </div>
+            <!-- Texto -->
+            <div class="col-lg-6 texto">
+              <h1 class="display-5 fw-bolder mb-2 pg1_t pg1_st">Quem Somos?</h1>
+              <p>Afinal quem é o ANBRUMAH? Nós somos um grupo de estudantes que se uniram para criar projetos voltados ao ambiente escolar. Andressa Lima, Bruna Paulinia, Maria Eduarda Lemos, Maria Luiza Tripudi, Marina Gomes e Henrique Yuri formam este time! Visamos o avanço de tecnologias no ambiente pedagógico e formas de promover o melhor desenvolvimento dos professores e alunos, utilizando ferramentas digitais.</p>
+            </div>
+          </div>
+          <br><br>
+        </div>
+      </div>
+    </section>
+
+    <section id="instalacao" class="py-5">
+
+      <!--Local de instalação !-->
+      <div class="container px-5 my-5">
+        <h1 class="pg1_st display-5 fw-bolder mb-2 pg1_t">Local de Instalação </h1> <br>
+        <p>O local onde fica o botão de emergência para incêndios em escolas é determinado por certas características essenciais, que vão além da cor do botão. Uma dessas características é a localização do botão, que precisa ser fácil para que os operadores possam acioná-lo em qualquer situação e com qualquer parte do corpo, especialmente em situações de perigo iminente.<br><br>
+
+          Em relação à posição do botão, em instalações verticais, o botão para desligar deve estar acima do botão de ligar, enquanto na posição horizontal, o botão desligar fica do lado direito do botão ligar.<br><br>
+
+          Além disso, é importante ressaltar que a brigada de incêndio, composta por trabalhadores treinados e capacitados para atuarem no atendimento a emergências, é obrigatória para escolas, de acordo com a Norma Regulamentadora (NR) 23, que trata da proteção contra incêndio.<br><br>
+
+          Portanto, a localização do botão de emergência para incêndios em escolas deve seguir padrões específicos para garantir a segurança e a prontidão em casos de necessidade, conforme as normas e regulamentos aplicáveis.</p>
+        <br><br>
+
+        <div class="img-instalacao" style="text-align: center;">
+
+          <img class="img-instalacao" src="https://i.ibb.co/dmrvRwd/img-instala-o.png" alt="imagem instalação">
+        </div>
+      </div>
+      <br><br>
+
+      <section id="faq" class="py-5">
+
+        <!-- PERGUNTAS FREQUENTES -->
+        <header class="mb-4">
+          <div class="container px-5 my-5">
+            <h1 class="pg1_st display-5 fw-bolder mb-2 pg1_t">Perguntas Frequentes</h1> <br>
+            <br><br>
+            <!--ACCORDION!-->
+
+            <div id="container">
+              <div class="accordion">
+                <button class="accordion-header">
+                  <span>
+                    O que acontece se houver falta de energia na escola?
+                  </span>
+                  <i class="fa-solid fa-chevron-down arrow"></i>
+                </button>
+
+                <div class="accordion-body">
+                  <p>
+                    Mesmo em caso de falta de energia, o botão de pânico continuará operacional. Cada botão de pânico é equipado com uma bateria interna que garante sua funcionalidade em situações de emergência, mesmo quando a energia principal estiver indisponível. Esta bateria é projetada para fornecer energia suficiente para operação contínua durante um período específico, permitindo que o sistema de botão de pânico permaneça operacional e envie alertas de emergência quando necessário.
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion">
+                <button class="accordion-header">
+                  <span>
+                    Em quais casos o botão de pânico pode ser acionado?
+                  </span>
+                  <i class="fa-solid fa-chevron-down arrow"></i>
+                </button>
+
+                <div class="accordion-body">
+                  <p>
+                    O botão de pânico pode ser acionado em situações de emergência, como quando uma pessoa está passando mal na sala, em caso de incêndio, ataques ou outras situações que representem uma ameaça à segurança dos alunos e funcionários da escola.
+
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion">
+                <button class="accordion-header">
+                  <span>
+                    O sistema de botão de pânico é fácil de usar?
+                  </span>
+                  <i class="fa-solid fa-chevron-down arrow"></i>
+                </button>
+
+                <div class="accordion-body">
+                  <p>
+                    Sim, o sistema foi projetado para ser intuitivo e de fácil utilização, permitindo que qualquer pessoa, incluindo alunos, professores e funcionários, possa acioná-lo rapidamente em caso de emergência.
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion">
+                <button class="accordion-header">
+                  <span>
+                    O botão de pânico se diferencia de outras medidas de segurança escolar?
+                  </span>
+                  <i class="fa-solid fa-chevron-down arrow"></i>
+                </button>
+
+                <div class="accordion-body">
+                  <p>
+                    O botão de pânico se destaca das outras medidas de segurança por sua capacidade de acionar instantaneamente uma resposta direcionada em situações de emergência, permitindo que alunos e funcionários notifiquem discretamente as autoridades sobre ameaças iminentes ou emergências em andamento. Sua simplicidade e rapidez de uso o tornam uma adição crucial à segurança da escola.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <script src="src/styles/javascript/script.js"></script>
+          </div>
+          </div>
+        </header>
+
+      </section>
+      <br>
+      <section id="como-usar" class="">
+
+        <!-- COMO USAR -->
+        <!-- Features section-->
+        <section class="py-5" id="features">
+          <div class="container px-5 my-5">
+            <div class="row gx-5">
+              <!-- Coluna única para todos os textos -->
+              <div class="col-12">
+
+                <h1 class="pg1_st display-5 fw-bolder mb-2 pg1_t">Como Utilizar </h1> <br>
+                <p>O uso de um botão de emergência pode variar dependendo do contexto em que está sendo empregado. Aqui estão algumas orientações gerais sobre como utilizar um botão de emergência:</p>
+                <br><br>
+                <ul class="list-unstyled">
+                  <section id="como-acionar" class="py-5">
+                    <li class="mb-4">
+                      <div class="bloco_t">
+                        <p><b>Como Acionar o Botão de Emergência:</b> Os botões de emergência são projetados para serem acionados em situações de emergência, como incêndios, acidentes ou outras situações perigosas. Ao identificar uma emergência, o operador deve pressionar o botão de emergência para interromper imediatamente o processo ou atividade em andamento.</p>
+                      </div>
+                    </li>
+                  </section>
+                  <section id="localizacao" class="py-5">
+                    <li class="mb-4">
+                      <div class="bloco_t">
+                        <p><b>Localização e Acesso:</b> Os botões de emergência devem estar localizados em áreas de fácil acesso e claramente identificados. Eles devem ser facilmente visíveis e alcançáveis para que qualquer pessoa possa acioná-los em caso de necessidade.</p>
+                      </div>
+                    </li>
+                  </section>
+                  <section id="procedimentos" class="py-5">
+                    <li class="mb-4">
+                      <div class="bloco_t">
+                        <p><b>Procedimentos para o Acionamento:</b> Em alguns casos, como no acionamento de um botão de pânico, pode haver um procedimento específico a ser seguido. Por exemplo, manter o botão pressionado por um determinado período de tempo para enviar um sinal de alerta</p>
+                      </div>
+                    </li>
+                  </section>
+                  <section id="seguranca" class="py-5">
+
+                    <li class="mb-4">
+                      <div class="bloco_t">
+                        <p><b>Segurança e Conscientização:</b> É importante ressaltar que o uso do botão de emergência deve ser feito com responsabilidade e apenas em situações reais de emergência. Os operadores devem estar cientes das consequências do acionamento do botão e seguir os procedimentos de segurança estabelecidos.</p>
+                      </div>
+                    </li>
+                  </section>
+                  <section id="normas" class="py-5">
+
+                    <li class="mb-4">
+                      <div class="bloco_t">
+                        <p><b>Normas e Regulamentos: </b> Em ambientes industriais e comerciais, a instalação e utilização de botões de emergência devem estar em conformidade com as normas e regulamentos de segurança, como a NR12, que estabelece requisitos para a proteção de operadores de máquinas e equipamentos.</p>
+                      </div>
+                    </li>
+                  </section>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- Testimonial section-->
+      <div class="cr-7 bg-light">
+        <div class="container px-5 my-5">
+          <div class="row gx-5 justify-content-center">
+            <div class="col-lg-10 col-xl-7">
+              <div class="text-center">
+                <div class="fs-4 mb-4 fst-italic">“O ambiente de aprendizagem deve ser seguro, acolhedor e estimulante para que os alunos possam alcançar seu potencial máximo.”
+                </div>
+                <div class="d-flex align-items-center justify-content-center">
+                  <img class="rounded-circle2 me-3" src="https://library.ascd.org/m/2c4b4cd2defe9e48/webimage-linda_darling-hammond.jpg" alt="..." />
+                  <div class="fw-bold">
+                    Linda Darling-Hammond
+                    <span class="fw-bold text-primary mx-1">/ Professora da Universidade de Stanford (EUA) </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br><br><br><br>
+
+      <section class="page-section" id="about">
+        <div class="container">
+          <div class="text-center">
+            <h1 class="pg1_st display-5 fw-bolder mb-2 pg1_t">INTEGRANTES</h1>
+            <h3 class="section-subheading text-muted"> </h3>
+          </div> <br><br>
+          <ul class="timeline">
+            <li id="andressa">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="https://i.ibb.co/VDwDx80/andiepng1.jpg" alt="" />
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Andressa Lima</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">
+                    •Desenvolvedora Web <br>
+                    <a href="https://www.instagram.com/andiewithi/" target="_blank" class="instagram-link">
+                      <img src="https://images.vexels.com/content/137380/preview/instagram-icon-logo-748850.png" alt="Instagram" style="width:25px; height: 25px; vertical-align: middle; margin-right: 5px;">
+                      Instagram
+                    </a>
+
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li id="bruna" class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="https://i.ibb.co/xD2h99S/brunapng.png" alt="..." />
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Bruna Paulinia Mendes Ramos</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">
+                    •Desenvolvedora Web <br>
+                    <a href="https://www.instagram.com/__bruna_mendes_/" target="_blank" class="instagram-link">
+                      <img src="https://images.vexels.com/content/137380/preview/instagram-icon-logo-748850.png" alt="Instagram" style="width:25px; height: 25px; vertical-align: middle; margin-right: 5px;">
+                      Instagram
+                    </a>
+
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li id="henrique">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="https://i.ibb.co/mJsYttT/Yuri.jpg" alt="..." />
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Henrique Yuri Hatamiya</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">
+                    •Desenvolvedor Web <br>
+                    <a href="https://www.instagram.com/henriyuri78/" target="_blank" class="instagram-link">
+                      <img src="https://images.vexels.com/content/137380/preview/instagram-icon-logo-748850.png" alt="Instagram" style="width:25px; height: 25px; vertical-align: middle; margin-right: 5px;">
+                      Instagram
+                    </a>
+
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li id="maria-eduarda" class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="https://i.ibb.co/23rnTDf/mariapng.jpg" alt="..." />
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Maria Eduarda Lemos Faria</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">
+                    •Desenvolvedora Web <br>
+                    <a href="https://www.instagram.com/maduh_inaba/" target="_blank" class="instagram-link">
+                      <img src="https://images.vexels.com/content/137380/preview/instagram-icon-logo-748850.png" alt="Instagram" style="width:25px; height: 25px; vertical-align: middle; margin-right: 5px;">
+                      Instagram
+                    </a>
+
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li id="maria-luiza">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="https://i.ibb.co/3fQxjpr/image.png" alt="..." />
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Maria Luiza Tripudi</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">
+                    • Desenvolvedora Web <br>
+                    <a href="https://www.instagram.com/m.tripudi/" target="_blank" class="instagram-link">
+                      <img src="https://images.vexels.com/content/137380/preview/instagram-icon-logo-748850.png" alt="Instagram" style="width:25px; height: 25px; vertical-align: middle; margin-right: 5px;">
+                      Instagram
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li id="marina" class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src=https://i.ibb.co/S7MNGJd/marinapng.png" alt="..." />
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Marina Viera Gomes</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">
+                    •Desenvolvedora Web <br>
+                    <a href="https://www.instagram.com/marinavigomes/" target="_blank" class="instagram-link">
+                      <img src="https://images.vexels.com/content/137380/preview/instagram-icon-logo-748850.png" alt="Instagram" style="width:25px; height: 25px; vertical-align: middle; margin-right: 5px;">
+                      Instagram
+                    </a>
+
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <!-- Blog preview section-->
+          <br><br><br><br>
+
+  </main>
+  <!-- Footer-->
+
+  <footer class="bg-dark py-4 mt-auto">
+    <div class="container px-5">
+      <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+        <div class="col-auto">
+          <div class="small m-0 text-white">Copyright &copy; ANBRUMAH</div>
+        </div>
+        <div class="col-auto">
+          <a class="link-light small" href="#" onclick="openPopup('privacyPopup')">Privacidade</a>
+          <span class="text-white mx-1">&middot;</span>
+          <a class="link-light small" href="#" onclick="openPopup('termsPopup')">Termos</a>
+          <span class="text-white mx-1">&middot;</span>
+          <a class="link-light small" href="#" onclick="openPopup('contactPopup')">Contato</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Pop-up para Privacidade -->
+  <div id="privacyPopup" class="popup">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup('privacyPopup')">&times;</span>
+      <h2>Termo de Privacidade</h2>
+      <br>
+      <p><strong>Última Atualização:</strong> 03 de Setembro de 2024</p>
+      <p>Bem-vindo ao site da ANBRUMAH! Este Termo de Privacidade explica como coletamos, usamos, divulgamos e protegemos suas informações quando você visita e utiliza nosso site, que é dedicado ao projeto "Segurança Nas Escolas: Um botão de Emergência". Ao acessar ou utilizar nosso site, você concorda com os termos descritos neste documento.</p>
+
+      <h2>1. Informações que Coletamos</h2>
+      <p>Coletamos informações de diferentes formas:</p>
+      <ul>
+        <li><strong>Informações Pessoais:</strong> Não coletamos informações pessoais identificáveis, como nome, endereço ou e-mail, sem o seu consentimento explícito.</li>
+        <li><strong>Dados de Navegação:</strong> Podemos coletar informações sobre a sua visita ao nosso site, incluindo seu endereço IP, tipo de navegador, páginas visitadas e a data e hora da sua visita.</li>
+      </ul>
+
+      <h2>2. Uso das Informações</h2>
+      <p>Utilizamos as informações coletadas para:</p>
+      <ul>
+        <li><strong>Melhorar o Site:</strong> Usamos dados de navegação para entender como os usuários interagem com nosso site e para melhorar a experiência do usuário.</li>
+        <li><strong>Comunicação:</strong> Caso você nos forneça informações de contato, poderemos usá-las para responder a suas perguntas ou fornecer informações adicionais sobre o projeto.</li>
+      </ul>
+
+      <h2>3. Compartilhamento de Informações</h2>
+      <p>Não vendemos, trocamos ou alugamos suas informações pessoais a terceiros. Podemos compartilhar informações não pessoais com terceiros para fins analíticos ou para melhorar nossos serviços, mas essas informações não identificarão você pessoalmente.</p>
+
+      <h2>4. Proteção das Informações</h2>
+      <p>Adotamos medidas técnicas e organizacionais adequadas para proteger suas informações contra acesso não autorizado, divulgação, alteração ou destruição. No entanto, nenhum método de transmissão pela internet ou método de armazenamento eletrônico é 100% seguro.</p>
+
+      <h2>5. Cookies e Tecnologias Semelhantes</h2>
+      <p>Nosso site pode usar cookies e outras tecnologias semelhantes para melhorar a experiência do usuário. Cookies são pequenos arquivos armazenados no seu dispositivo que ajudam a lembrar suas preferências e a analisar o tráfego do site. Você pode optar por desativar os cookies através das configurações do seu navegador.</p>
+
+      <h2>6. Links para Outros Sites</h2>
+      <p>Nosso site pode conter links para sites de terceiros. Não somos responsáveis pelas práticas de privacidade ou pelo conteúdo desses sites. Recomendamos que você leia as políticas de privacidade de qualquer site para o qual você seja direcionado.</p>
+
+      <h2>7. Seus Direitos</h2>
+      <p>Você tem o direito de acessar, corrigir ou excluir suas informações pessoais que possuímos, se aplicável. Caso deseje exercer esses direitos, entre em contato conosco através do e-mail fornecido abaixo.</p>
+
+      <h2>8. Alterações a Este Termo de Privacidade</h2>
+      <p>Podemos atualizar este Termo de Privacidade ocasionalmente para refletir mudanças em nossas práticas ou na legislação aplicável. Recomendamos que você revise este documento periodicamente para estar ciente de quaisquer alterações.</p>
+
+      <h2>9. Contato</h2>
+      <p>Se você tiver alguma dúvida ou preocupação sobre este Termo de Privacidade ou sobre como tratamos suas informações, entre em contato conosco pelo e-mail: <a href="mailto:quintertopds@gmail.com">quintertopds@gmail.com</a>.</p>
+
+      <p><strong>ANBRUMAH</strong></p>
+    </div>
+  </div>
+
+  <!-- Pop-up para Termos -->
+  <div id="termsPopup" class="popup">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup('termsPopup')">&times;</span>
+      <h2>Termos de Serviço</h2>
+      <p>Bem-vindo ao site da ANBRUMAH, dedicado ao projeto "Segurança nas Escolas: Um Botão de Emergência". Este Termo descreve as condições e regras que regem o uso do nosso site e o acesso às informações e serviços que oferecemos. Ao acessar ou utilizar nosso site, você concorda com estes termos.</p>
+
+      <h2>1. Objetivo do Site</h2>
+      <p>O site da ANBRUMAH tem como objetivo fornecer informações sobre o projeto "Segurança nas Escolas: Um Botão de Emergência", uma iniciativa para melhorar a segurança nas escolas através de um sistema de emergência acessível e eficaz. O site oferece detalhes sobre o projeto, suas funcionalidades e os benefícios para instituições de ensino e comunidades.</p>
+
+      <h2>2. Aceitação do Termo</h2>
+      <p>Ao utilizar nosso site, você aceita e concorda com este Termo. Se você não concordar com qualquer parte destes termos, por favor, não use nosso site. Reservamo-nos o direito de alterar estes termos a qualquer momento, e tais alterações serão publicadas nesta página. É de sua responsabilidade revisar periodicamente estes termos para estar ciente de quaisquer modificações.</p>
+
+      <h2>3. Uso do Site</h2>
+      <p>Você concorda em usar o site apenas para fins legais e de acordo com todas as leis e regulamentos aplicáveis. Você não deve usar o site de forma que possa danificar, desativar, sobrecarregar ou prejudicar o funcionamento do site, ou interferir com o uso de qualquer outra pessoa.</p>
+
+      <h2>4. Propriedade Intelectual</h2>
+      <p>Todo o conteúdo disponível no site, incluindo textos, gráficos, logotipos, imagens e software, é propriedade da ANBRUMAH ou de seus licenciadores e está protegido por direitos autorais, marcas registradas e outras leis de propriedade intelectual. Você não pode reproduzir, distribuir, modificar, exibir publicamente ou criar trabalhos derivados a partir do conteúdo sem a nossa permissão expressa por escrito.</p>
+
+      <h2>5. Isenção de Responsabilidade</h2>
+      <p>O site é fornecido "como está" e "conforme disponível". Não fazemos garantias, expressas ou implícitas, quanto à precisão, confiabilidade ou adequação das informações, produtos ou serviços disponíveis no site. Não seremos responsáveis por qualquer dano ou perda resultante do uso ou incapacidade de usar o site.</p>
+
+      <h2>6. Links para Outros Sites</h2>
+      <p>Nosso site pode conter links para sites de terceiros que não são de nossa propriedade ou controlados por nós. Não somos responsáveis pelo conteúdo ou pelas práticas de privacidade desses sites. Recomendamos que você leia as políticas de privacidade e os termos de uso de qualquer site para o qual você seja direcionado.</p>
+
+      <h2>7. Modificações dos Termos</h2>
+      <p>Reservamo-nos o direito de modificar este Termo a qualquer momento. Quaisquer alterações serão publicadas nesta página com uma data de revisão atualizada. Seu uso contínuo do site após a publicação de quaisquer modificações constitui aceitação das alterações.</p>
+
+      <h2>8. Contato</h2>
+      <p>Se você tiver alguma dúvida ou preocupação sobre este Termo ou sobre o uso do site, entre em contato conosco através do e-mail: <a href="mailto:quintertopds@gmail.com">quintertopds@gmail.com</a>.</p>
+
+      <p><strong>ANBRUMAH</strong></p>
+
+    </div>
+  </div>
+
+  <!-- Pop-up para Contato -->
+  <div id="contactPopup" class="popup">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup('contactPopup')">&times;</span>
+      <h2>Contato</h2>
+      <p>Se você tiver dúvidas, sugestões ou precisar de mais informações sobre o projeto "Segurança nas Escolas: Um Botão de Emergência", sinta-se à vontade para entrar em contato conosco. Nossa equipe está aqui para ajudar e responder às suas perguntas.</p>
+
+      <h2>Informações de Contato</h2>
+      <p><strong>Email:</strong> <a href="mailto:quintertopds@gmail.com">quintertopds@gmail.com</a></p>
+      <p><strong>Telefone:</strong> +55 (11) 9 7070-7392</p>
+      <p><strong>Endereço:</strong> Rua Topázio, 555 - Jardim Nomura, Cotia, SP, Brasil</p>
+
+      <h2>Formulário de Contato</h2>
+      <form action="/enviar-formulario" method="post">
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="assunto">Assunto:</label>
+          <input type="text" id="assunto" name="assunto" required>
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" required></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit">Enviar Mensagem</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    function openPopup(popupId) {
+      document.getElementById(popupId).style.display = 'flex';
+    }
+
+    function closePopup(popupId) {
+      document.getElementById(popupId).style.display = 'none';
+    }
+    // Fechar pop-ups ao clicar fora do conteúdo
+    window.onclick = function(event) {
+      var popups = document.getElementsByClassName('popup');
+      for (var i = 0; i < popups.length; i++) {
+        if (event.target === popups[i]) {
+          popups[i].style.display = 'none';
+        }
+      }
+    }
+  </script>
+
+  <!-- Bootstrap core JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
